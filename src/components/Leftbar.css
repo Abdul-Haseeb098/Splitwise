@@ -1,0 +1,148 @@
+.leftbar{
+    position: absolute;
+    top: 40px;
+    width: 13%;
+    left: 15%;
+}
+.leftbar{
+    padding-left: 5px;
+}
+li{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    position: relative;
+} 
+li .active::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    left: -5px;
+    height: 100%;
+    background: #5bc5a7;
+  }
+  li img{
+    width: 20px;
+    padding-bottom: 3px;
+  }
+li i{
+    font-size: 14px;
+    padding-right: 5px;
+}
+li:hover{
+    background: #eeeeee;
+    color: #000;
+}
+.groups{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f6f6f6;
+    font-size: 12px;
+    color: #ccc;
+    padding: 0px 5px;
+    margin: 2px 0px;
+}
+.groups:hover{
+    color: #999;
+    border-color: #999;
+}
+.groups:hover a{
+    color: #999;
+}
+.groups a:hover{
+    color: #5bc5a7;
+}
+.groups a{
+    text-decoration: none;
+    color: #ccc;
+}
+.info{
+    text-align: center;
+    color: #ccc;
+    font-size: 12px;
+    padding: 5px 10px 2px;
+}
+.form{
+    width: 100%;
+    height: 92px;
+    border:1px solid #ccc;
+    margin-top: 20px;
+}
+.form_title{
+    width: 100%;
+    height: 26px;
+    background: #5bc5a7;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0px 5px;
+    border: 1px solid #39a385;
+}
+.form_body{
+    padding: 3px 5px;
+}
+.form input{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    padding: 4px;
+    margin-bottom: 3px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #555555;
+}
+.form input::placeholder{
+    color: #ccc;
+}
+.form_body button{
+    font-size: 12px;
+    padding: 2px 6px;
+    background: #eee;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #333333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.form_body button:hover{
+    background: #eeeeeec1;
+}
+.btn_group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0px px;
+}
+.fb_btn{
+    background: #3b5998;
+    color: white;
+    padding: 5px 10px;
+    opacity: 0.9;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.fb_btn .fa-facebook-f{
+    padding-right: 13px;
+    font-size: 16px;
+}
+.twitter_btn{
+    background: #4099ff;
+    color: white;
+    padding: 5px 10px;
+    opacity: 0.9;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.twitter_btn .fa-twitter{
+    padding-right: 6px;
+    font-size: 14px;
+}

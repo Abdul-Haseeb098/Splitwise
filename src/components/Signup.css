@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height: 40vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_1 img{
+    width: 250px;
+    height: 200px;
+    padding-right: 30px;
+}
+.box_2 h2{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #999;
+    font-weight: bold;
+    line-height: 20px;
+    font-family: inherit;
+}
+.box_2 h1{
+    font-size: 24px;
+    line-height: 140%;
+    margin: 16px 0 5px;
+}
+.box_2 input{
+    font-size: 32px;
+    height: 42px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: 4px;
+    margin-bottom: 17px;
+}
+.signup{
+    padding: 11px 15px;
+    font-size: 24px;
+    background: #ff652f;
+    color: #fff;
+    text-shadow: 0 -1px 0 #c83400;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border: 1px solid #cccccc;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.grps_btn{
+    display: flex;
+    align-items: center;
+}
+.signup:hover{
+    background: #ff7240;
+    color: white;
+    text-shadow: 0 -1px 0 #c84415;
+}
+.google_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border: 1px solid #cccccc;
+    padding: 2px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.google_btn img{
+    width: 16px;
+    height: 16px;
+}
+.google_btn span{
+    margin: 0 0 3px 5px;
+    font-size: 13px;
+    color: #777;
+}
+.line{
+    color: #0088cc;
+    font-size: 14px;
+    text-decoration: none;
+}
+.line:hover{
+    text-decoration: underline;
+}

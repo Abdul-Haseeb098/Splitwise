@@ -1,0 +1,135 @@
+*{
+    font-family: "Montserrat", serif;
+  }
+  .rightbar,.menu,.dropdown,.dashboard-right,.leftbar{
+    display : none;
+  }
+  main{
+      width: 100%;
+      height: 100vh;
+      background-image: url('/src/images/facets.png');
+  }
+  main .container .row{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+  }
+  .form{
+      width: 600px;
+      height: 550px;
+      background: #fff;
+      border: 1px solid #E6E8EE;
+      padding: 32px 64px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+      border-radius: 16px;
+  }
+  .form h1{
+      font-size: 28px;
+      margin: 0px 0px 16px;
+  }
+  .form_content label{
+      font-size: 16px;
+  }
+  .form_content input{
+      padding: 8px;
+      background-color: #ffff;
+  }
+  .email_content{
+      margin-bottom: 10px;
+  }
+  .form_content button{
+      width: 100%;
+      margin: 16px 0px;
+      font-size: 16px;
+      box-shadow: 0 2px 0 0 rgba(55, 59, 63, 0.5);
+      font-weight: 600;
+      background-color: #18A582;
+      border: none;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 5px;
+  }
+  .forget_password{
+    width: 100%;
+    text-align: center;
+  }
+  .forget_password a{
+      width: 100%;
+      color: #18A582;
+      font-size: 16px;
+      padding: 8px 0px;
+      cursor: pointer;
+      font-weight: 600;
+    font-family: "Montserrat", serif;
+    text-decoration: none;
+  }
+  .space{
+      text-align: center;
+      margin: 24px 0px 0px;
+      color: #BDC9D4;
+      position: relative;
+  }
+  .space::after{
+      position: absolute;
+      content: '';
+      z-index: 1000;
+      background: #E6E8EE;
+      height: 1px;
+      border: none;
+      width: 40px;
+      bottom: 10px;
+      right: 40%;
+      transform: translateX(50%);
+  }
+  .space::before{
+      position: absolute;
+      content: '';
+      z-index: 1000;
+      background: #E6E8EE;
+      height: 1px;
+      border: none;
+      width: 40px;
+      bottom: 10px;
+      left: 30%;
+      transform: translateX(50%);
+  }
+  .google_signin a{
+      margin-top: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      padding: 8px 16px;
+      font-size: 16px;
+      font-weight: 600;
+      border: 1px solid #E6E8EE;
+      box-shadow: 0 2px 0 0 rgba(55, 59, 63, 0.5);
+      border-radius: 5px;
+      color: #000;
+  }  
+  .google_signin a:hover span{
+      color: #000;
+  }
+  .google_signin a img{
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+      color: #000;
+  }
+  @media screen and (max-width:990px){
+      .form{
+          width: 95%;
+          height: auto;
+          padding:40px 13px;
+      }
+  }
+  .footer_img{
+    position: absolute;
+    bottom: 0;
+  }
+  .footer-img{
+    width: 100%;
+    height: 100%;
+    background-image: url('/src/images/footer.PNG');
+  }
