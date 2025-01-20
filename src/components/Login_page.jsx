@@ -1,6 +1,6 @@
 import React from 'react'
 import Mininavbar from './Mininavbar'
-import './Loginbar.css'
+import './css/Loginbar.css'
 import Footer_mini from './Footer_mini'
 const Login = () => {
   return (

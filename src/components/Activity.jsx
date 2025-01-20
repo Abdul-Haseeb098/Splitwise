@@ -1,5 +1,5 @@
 import React from "react";
-import "./Rightbar.css"; // Your CSS file for styling
+import "./css/Rightbar.css"; 
 
 const Activity = () => {
   return (

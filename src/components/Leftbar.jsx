@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import './Leftbar.css'
+import './css/Leftbar.css'
 const Leftbar = () => {
   return (
     <>

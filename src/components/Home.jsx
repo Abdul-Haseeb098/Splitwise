@@ -1,6 +1,6 @@
 import React from 'react'
 import Mininavbar from './Mininavbar'
-import './Home.css'
+import './css/Home.css'
 import Footer_mini from './Footer_mini'
 const Dashboard = () => {
   return (

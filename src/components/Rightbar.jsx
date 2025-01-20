@@ -1,5 +1,5 @@
 import React from "react";
-import "./Rightbar.css"; 
+import "./css/Rightbar.css"; 
 const Dashboard = () => {
   return (
     <div className="dashboard-right">
